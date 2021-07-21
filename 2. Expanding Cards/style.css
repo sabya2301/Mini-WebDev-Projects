@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    margin: 10px;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    background-position: center;
+    transition: flex 0.7s ease-in;
+    cursor: pointer;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity .3s ease-in .4s;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+}
+
+.image-1 {
+    background-image: url("https://images.unsplash.com/photo-1626840365510-3201b731eb13?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-2 {
+    background-image: url("https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-3 {
+    background-image: url("https://images.unsplash.com/photo-1626797351293-91ea1fe821d1?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-4 {
+    background-image: url("https://images.unsplash.com/photo-1626766937646-36b8ad296327?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-5 {
+    background-image: url("https://images.unsplash.com/photo-1626824386577-5ac8a7000603?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-5 h3 {
+    transform: translateX(250%);
+}
+
+.image-6 {
+    background-image: url("https://images.unsplash.com/photo-1626841006932-2d653801ac63?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.image-6 h3 {
+    transform: translateX(50%);
+}
