@@ -7,7 +7,8 @@ for (let i = 0; i < panels.length; ++i) {
         removeActiveClass();
         console.log("ho");
         panels[i].classList.add("active");
-    })
+    });
+    // panels[i].addEventListener("m")
 }
 
 function removeActiveClass() {
