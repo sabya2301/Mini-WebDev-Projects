@@ -80,3 +80,16 @@ p {
     display: none;
     font-size: 12px;
 }
+
+.content p {
+    color: rgb(223, 10, 21);
+}
+
+.content .correct {
+    border: 2px solid rgb(143, 231, 147);
+}
+
+.content .wrong {
+    border: 2px solid rgb(223, 10, 21);
+    /* color: rgb(223, 10, 21); */
+}
