@@ -5,3 +5,6 @@ These small projects can be used as a part of bigger projects.
 The covered topics are as follows-
 1. Progress Steps
 2. Expanding Cards
+3. Rotating Navigation
+4. Form Validation
+5. Search Bar
