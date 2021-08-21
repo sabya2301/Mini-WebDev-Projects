@@ -8,3 +8,5 @@ The covered topics are as follows-
 3. Rotating Navigation
 4. Form Validation
 5. Search Bar
+6. Blurry Loading
+7. Scrolling Animation
