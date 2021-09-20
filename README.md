@@ -10,3 +10,4 @@ The covered topics are as follows-
 5. Search Bar
 6. Blurry Loading
 7. Scrolling Animation
+8. Joke API
