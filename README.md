@@ -11,3 +11,5 @@ The covered topics are as follows-
 6. Blurry Loading
 7. Scrolling Animation
 8. Joke API
+9. Key Codes
+10. Github Profiles
